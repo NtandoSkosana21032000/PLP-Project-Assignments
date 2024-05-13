@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang=""en>
+
+<head>
+    <meta charset="UTD-8">
+    <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+    <title>CSS Introduction</title>
+    
+    <style>
+        /*Header style*/
+        header{
+            background-color: teal;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .introduction{
+            background-color: red;
+            padding:20px;
+            margin-top:20px;
+            margin-bottom: 20px;
+        }
+        
+        /*Skill display*/
+        .skill{
+            background-color: blue;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .skill ul{
+            list-style:none;
+            padding: 0;
+        }
+
+        .skill le{
+            border: 1px solid gold;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        /*Contact Information*/
+        .contact{
+            background-color: pink;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        /*Responsive design*/
+        @media screen and (max-width:768px) {
+            /*Adjust padding and margin for smaller screen*/
+            hearder, .introductio, .skill, .contact{
+                padding: 10px;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <h1>Ntando Skosana</h1>
+    </header>
+
+    <!--Introduction Section-->
+    <section class="introduction">
+        <h2>Introduction</h2>
+        <p>Hello. My name is Ntando Skosana, I am 24 Years Old. I am a sofware development learner at Power Learn Project, with the aim to major in web development, Darts and Flature, Python and database</p>
+    </section>
+    
+    <!--Skill Display-->
+    <section class="skill">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Darts</li>
+            <li>Phyton</li>
+            <li>Database</li>
+            <li>Django</li>
+        </ul>
+    </section>
+
+    <!--Contact Information-->
+    <section class="contact">
+        <h2>Contact Details</h2>
+        <p>Contact Number: 079 938 3579</p>
+        <p>Altinative Number: 061 418 8707</p>
+        <p>Email: skosanantando447@gmail.com</p>
+    </section>
+
+</body>
+</html>
